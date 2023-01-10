@@ -5,7 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { Routes } from '@angular/router';
 
 export const portfolioRoutes: Routes = [
-  {path: 'home', component: HomeComponent},
+  {path: '', component: HomeComponent},
   {path: 'projects', component: ProjectsComponent},
   {path: 'about', component: AboutComponent},
   {path: 'contacts', component: ContactsComponent}
