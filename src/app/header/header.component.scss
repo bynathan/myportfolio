@@ -1,11 +1,12 @@
 .navbar__logo{
   display: flex;
   align-items: center;
+  cursor: pointer;
   p{
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 21px;
+    line-height: 23px;
     color: #FFFFFF;
     margin: 0px;
   }
@@ -17,7 +18,7 @@
 .navbar__options{
   display: flex;
   width: 100%;
-  max-width: 377px;
+  max-width: 400px;
 }
 
 .navbar__options ul{
@@ -33,16 +34,19 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 21px;
-  color: #FFFFFF;
+  color: #ABB2BF;
   transition: all .2s;
   cursor: pointer;
+  &.routerActive{
+    color: #FFFFFF;
+  }
   &:hover{
-    color: #ABB2BF;
+    color: #FFFFFF;
   }
   strong{
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 21px;
     color: #C778DD;
   }
