@@ -7,6 +7,6 @@ import { Routes } from '@angular/router';
 export const portfolioRoutes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'projects', component: ProjectsComponent},
-  {path: 'about', component: AboutComponent},
+  {path: 'about-me', component: AboutComponent},
   {path: 'contacts', component: ContactsComponent}
 ]

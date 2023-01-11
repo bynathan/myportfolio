@@ -1,0 +1,260 @@
+.home__profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1025px;
+  margin: 123px 0 160px 0;
+}
+
+.profile__info{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 537px;
+    margin: 74px 0 0 0;
+    h1{
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 42px;
+      color: #FFFFFF;
+      margin: 0 0 32px 0;
+      max-width: 537px;
+      strong{
+        color: #C778DD;
+      }
+    }
+    p{
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 25px;
+      color: #ABB2BF;
+      margin: 0 0 24px 0;
+      max-width: 463px;
+    }
+    input{
+      border: 1px solid #C778DD;
+      background-color: transparent;
+      font-family: 'Fira Code';
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+      color: #FFFFFF;
+      height: 37px;
+      width: 100%;
+      max-width: 148px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background .2s;
+      cursor: pointer;
+      &:hover{
+        background: rgba(199, 120, 221, 0.2);
+      }
+    }
+  }
+}
+
+.home__header{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  h1{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin: 0 16px 0 0;
+    strong{
+      color: #C778DD;
+      font-weight: 500;
+    }
+  }
+  div{
+    height: 1px;
+    background-color: #C778DD;
+  }
+}
+
+// SKILLS
+
+.home__skills{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1025px;
+  margin: 0 0 160px 0;
+  .home__header{
+    margin: 0 0 12px 0;
+    div{
+      width: 100%;
+      max-width: 201px;
+    }
+  }
+}
+
+.skills__content{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  img{
+    margin: 0 0 0 32px;
+  }
+  .skills__list{
+    width: 100%;
+    max-width: 515px;
+    display: grid;
+    grid-template-columns: 165px 165px 165px;
+    grid-template-rows: 126px;
+    column-gap: 16px;
+  }
+}
+
+.skills__item{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 165px;
+  .skills__item--header{
+    width: 100%;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    border: 1px solid #ABB2BF;
+    border-bottom: 0px;
+  }
+  .skills__item--body{
+    width: 100%;
+    border: 1px solid #ABB2BF;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    p{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 21px;
+      color: #ABB2BF;
+    }
+  }
+}
+
+//ABOUT
+
+.home__about{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 160px 0;
+  .about__content{
+    width: 100%;
+    max-width: 516px;
+    p{
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 21px;
+      color: #ABB2BF;
+      margin: 0 0 24px 0;
+    }
+    input{
+      border: 1px solid #C778DD;
+      font-family: 'Fira Code';
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 21px;
+      color: #FFFFFF;
+      height: 37px;
+      width: 100%;
+      max-width: 148px;
+      background-color: transparent;
+      cursor: pointer;
+      transition: background .2s;
+      &:hover{
+        background: rgba(199, 120, 221, 0.2);
+      }
+    }
+    .home__header{
+      margin: 0 0 48px 0;
+      div{
+        width: 100%;
+        max-width: 288px;
+      }
+    }
+  }
+}
+
+//CONTACTS
+
+.home__contacts{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1025px;
+  margin: 0 0 187px 0;
+  .home__header{
+    margin: 0 0 14px 0;
+    div{
+      width: 100%;
+      max-width: 100px;
+    }
+  }
+  .contacts__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 21px;
+      color: #ABB2BF;
+      max-width: 505px;
+    }
+    div{
+      border: 1px solid #ABB2BF;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      h1{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 21px;
+        color: #FFFFFF;
+        margin: 0 0 14px 0;
+      }
+      a:nth-child(1){
+        margin: 0 0 8px 0;
+      }
+      a{
+        display: flex;
+        align-items: center;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: #ABB2BF;
+        text-decoration: none;
+        transition: all .2s;
+        &:hover{
+          color: #FFFFFF;
+          svg{
+            fill: #FFFFFF;
+          }
+        }
+        svg{
+          transition: all .2s;
+          margin: 0 5px 0 0;
+          fill: #ABB2BF;
+        }
+      }
+    }
+  }
+}
