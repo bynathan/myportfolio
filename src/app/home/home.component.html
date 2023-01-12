@@ -8,12 +8,15 @@
     <img src="../../assets/img/profilehome.svg">
   </div>
 </div>
-<!-- <div class="home__projects">
+<div class="home__projects">
   <div class="home__header">
-    <h1><strong>&lt;/&gt;</strong>Skills</h1>
+    <h1><strong>&lt;/&gt;</strong>Projects</h1>
     <div></div>
   </div>
-</div> -->
+  <div class="projects__list">
+    <app-project *ngFor="let project of projects" [project]="project"></app-project>
+  </div>
+</div>
 <div class="home__skills">
   <div class="home__header">
     <h1><strong>&lt;/&gt;</strong>Skills</h1>
