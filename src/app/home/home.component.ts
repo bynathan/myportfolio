@@ -8,13 +8,25 @@ import { Component } from '@angular/core';
 export class HomeComponent {
  projects: Project[] =[
   {
-    background: 'red'
+    imgName: 'projectimagename',
+    techList: 'HTML CSS JAVASCRIPT',
+    name: 'Project Name',
+    desc: 'Website responsive',
+    classButton: 'live'
   },
   {
-    background: 'blue'
+    imgName: 'projectimagename',
+    techList: 'HTML CSS JAVASCRIPT',
+    name: 'Project Name',
+    desc: 'Website responsive',
+    classButton: 'live'
   },
   {
-    background: 'yellow'
+    imgName: 'projectimagename',
+    techList: 'HTML CSS JAVASCRIPT',
+    name: 'Project Name',
+    desc: 'Website responsive',
+    classButton: 'github'
   }
  ]
 }

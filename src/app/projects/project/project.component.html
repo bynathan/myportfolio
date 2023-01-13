@@ -1,3 +1,14 @@
-<div style="background: {{project.background}}">
-
+<div class="project__full">
+  <img src="../../../assets/img/{{project.imgName}}.png">
+  <div class="project__tech">
+    <p>{{project.techList}}</p>
+  </div>
+  <div class="project__info">
+    <h1>{{project.name}}</h1>
+    <p>{{project.desc}}</p>
+  </div>
+  <div class="project__buttons">
+    <input *ngIf="project.classButton == 'live'" class="live" type="button" value='Live |&gt;'>
+    <input *ngIf="project.classButton == 'github'" class="github" type="button" value='Github -&gt;'>
+  </div>
 </div>

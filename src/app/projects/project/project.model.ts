@@ -1,3 +1,7 @@
 export interface Project {
-  background: string
+  imgName: string
+  techList: string
+  name: string
+  desc: string
+  classButton: string
 }
