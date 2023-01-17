@@ -3,7 +3,7 @@
     <div>
       <h1>This is <strong>Nathan Silva</strong> a <strong>front-end developer.</strong></h1>
       <p>He crafts responsive websites where technologies meet creativity</p>
-      <input type="button" value="Contact me !!!">
+      <input routerLink="/contacts" type="button" value="Contact me !!!">
     </div>
     <img src="../../assets/img/profilehome.svg">
   </div>
@@ -12,6 +12,7 @@
   <div class="home__header">
     <h1><strong>&lt;/&gt;</strong>Projects</h1>
     <div></div>
+    <a routerLink="/projects">>View all ~~></a>
   </div>
   <div class="projects__list">
     <app-project *ngFor="let project of projects" [project]="project"></app-project>
@@ -69,11 +70,11 @@
       <div></div>
     </div>
     <p>Hello, I'm Nathan Silva!<br><br>I'm a very creative and hard-working front-end developer. I can develop responsive websites from scratch and turn them into modern, user-friendly web experiences.<br><br>Turning my creativity and knowledge into websites has been my passion for almost a year now. I have helped several clients establish their online presence. I always strive to learn about the newest technologies and frameworks.</p>
-    <input type="button" value="Read more ->">
+    <input routerLink="/about-me" type="button" value="Read more ->">
   </div>
   <img src="../../assets/img/about-me.svg">
 </div>
-<div class="home__contacts">
+<div class="home__contacts" id="home__contacts">
   <div class="home__header">
     <h1><strong>&lt;/&gt;</strong>Contacts</h1>
     <div></div>
@@ -82,13 +83,13 @@
     <p>I'm interested in PJ, CLT and freelance opportunities, but if you have any other request, question or doubts, don't hesitate to contact me.</p>
     <div>
       <h1>Message me here</h1>
-      <a class="mgb" href="http://" target="_blank">
+      <a class="mgb" href="mailto:nathancontato14112003@gmail.com" target="_blank">
         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M5.07187 9.20292C5.2168 8.57709 5.57307 8.01832 6.08232 7.6181C6.59158 7.21789 7.22365 6.99996 7.875 7H25.125C25.7764 6.99996 26.4084 7.21789 26.9177 7.6181C27.4269 8.01832 27.7832 8.57709 27.9281 9.20292L16.5 16.0865L5.07187 9.20292ZM5 10.8207V20.8847L13.3418 15.8442L5 10.8207ZM14.7189 16.6758L5.27456 22.3807C5.50791 22.8657 5.87619 23.2753 6.33656 23.5619C6.79693 23.8486 7.33044 24.0005 7.875 24H25.125C25.6695 24.0001 26.2028 23.8479 26.6629 23.561C27.123 23.274 27.491 22.8643 27.724 22.3793L18.2796 16.6744L16.5 17.7468L14.7189 16.6744V16.6758ZM19.6582 15.8457L28 20.8847V10.8207L19.6582 15.8442V15.8457Z"/>
         </svg>
         Send Email
       </a>
-      <a href="http://" target="_blank">
+      <a href="https://api.whatsapp.com/send?phone=5587991644651&text=Ol%C3%A1%20Nathan." target="_blank">
         <svg width="32" height="23" viewBox="0 0 196 193" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M152 0.360437H44.0001C20.2396 0.360437 0.800049 19.8 0.800049 43.5604V113.16C0.800049 136.921 20.2396 156.36 44.0001 156.36H79.5196L110.24 188.28C112.399 191.16 116 192.841 119.6 192.841C123.679 192.841 127.52 190.681 129.68 187.321C130.16 186.601 130.639 185.64 130.88 184.681L138.8 156.36H152C175.761 156.36 195.2 136.921 195.2 113.16V43.5604C195.2 19.7999 175.761 0.360352 152 0.360352L152 0.360437ZM108.08 117H40.4001C35.1201 117 30.8009 112.681 30.8009 107.401C30.8009 102.121 35.1201 97.8022 40.4001 97.8022H108.08C113.36 97.8022 117.679 102.121 117.679 107.401C117.679 112.681 113.358 117 108.078 117H108.08ZM153.2 88.2009H40.4001C35.1201 88.2009 30.8009 83.8817 30.8009 78.6017C30.8009 73.3217 35.1201 69.0026 40.4001 69.0026H153.2C158.48 69.0026 162.799 73.3217 162.799 78.6017C162.799 83.88 158.48 88.2009 153.2 88.2009ZM153.2 59.4013H40.4001C35.1201 59.4013 30.8009 55.0822 30.8009 49.8022C30.8009 44.5222 35.1201 40.203 40.4001 40.203H153.2C158.48 40.203 162.799 44.5222 162.799 49.8022C162.799 55.0804 158.48 59.4013 153.2 59.4013Z"/>
           </svg>

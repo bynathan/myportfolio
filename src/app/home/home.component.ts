@@ -12,21 +12,24 @@ export class HomeComponent {
     techList: 'HTML CSS JAVASCRIPT',
     name: 'Project Name',
     desc: 'Website responsive',
-    classButton: 'live'
+    classButton: 'live',
+    href: 'https://github.com/bynathan'
   },
   {
     imgName: 'projectimagename',
     techList: 'HTML CSS JAVASCRIPT',
     name: 'Project Name',
     desc: 'Website responsive',
-    classButton: 'live'
+    classButton: 'live',
+    href: 'https://github.com/bynathan'
   },
   {
     imgName: 'projectimagename',
     techList: 'HTML CSS JAVASCRIPT',
     name: 'Project Name',
     desc: 'Website responsive',
-    classButton: 'github'
+    classButton: 'github',
+    href: 'https://github.com/bynathan'
   }
  ]
 }

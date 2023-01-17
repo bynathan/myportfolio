@@ -4,4 +4,5 @@ export interface Project {
   name: string
   desc: string
   classButton: string
+  href: string
 }
