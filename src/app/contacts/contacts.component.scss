@@ -1,0 +1,129 @@
+.contacts__full{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1025px;
+  margin: 0 auto;
+}
+
+.contacts__top{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 52px 0 46px 0;
+  h1{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin: 0 0 14px 0;
+    strong{
+      color: #C778DD;
+    }
+  }
+  p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+  }
+}
+
+.contacts__about{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 0 25px 0;
+  p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ABB2BF;
+    max-width: 505px;
+  }
+  .contacts__about--message{
+    border: 1px solid #ABB2BF;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    h1{
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 21px;
+      color: #FFFFFF;
+      margin: 0 0 14px 0;
+    }
+    .mgb{
+      margin: 0 0 8px 0;
+    }
+    a{
+      display: flex;
+      align-items: center;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 21px;
+      color: #ABB2BF;
+      text-decoration: none;
+      transition: all .2s;
+      &:hover{
+        color: #FFFFFF;
+        svg{
+          fill: #FFFFFF;
+        }
+      }
+      svg{
+        transition: all .2s;
+        margin: 0 5px 0 0;
+        fill: #ABB2BF;
+      }
+    }
+  }
+}
+
+.contacts__media{
+  display: flex;
+  flex-direction: column;
+  h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin: 0 0 22px 0;
+    strong{
+      color: #C778DD;
+    }
+  }
+  .contacts__media--content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+    width: 100%;
+    max-width: 505px;
+    margin: 0 0 69px 0;
+    a{
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      margin: 0 22px 0 0;
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 21px;
+      color: #ABB2BF;
+      transition: all .2s;
+      &:hover{
+        color: #FFFFFF;
+        svg{
+          fill: #FFFFFF;
+        }
+      }
+      svg{
+        transition: fill .2s;
+        margin: 0 10px 0 0;
+        fill: #ABB2BF;
+      }
+    }
+  }
+}
