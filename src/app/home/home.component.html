@@ -12,7 +12,7 @@
   <div class="home__header">
     <h1><strong>&lt;/&gt;</strong>Projects</h1>
     <div></div>
-    <a routerLink="/projects">>View all ~~></a>
+    <a routerLink="/projects">View all ~~></a>
   </div>
   <div class="projects__list">
     <app-project *ngFor="let project of projects" [project]="project"></app-project>
@@ -55,9 +55,15 @@
           Tools
         </div>
         <div class="skills__item--body">
-          <p>HTML</p>
-          <p>CSS</p>
-          <p>SCSS</p>
+          <div>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>SCSS</p>
+            <p>GIT</p>
+          </div>
+          <div>
+            <p>VSCode</p>
+          </div>
         </div>
       </div>
     </div>

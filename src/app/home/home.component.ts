@@ -8,28 +8,28 @@ import { Component } from '@angular/core';
 export class HomeComponent {
  projects: Project[] =[
   {
-    imgName: 'projectimagename',
+    imgName: 'projectimagefigmaland01',
     techList: 'HTML CSS JAVASCRIPT',
-    name: 'Project Name',
-    desc: 'Website responsive',
+    name: 'Project Figmaland 01',
+    desc: 'figma responsive website.',
     classButton: 'live',
-    href: 'https://github.com/bynathan'
+    href: 'https://bynathan.github.io/project-figmaland-001/'
   },
   {
-    imgName: 'projectimagename',
+    imgName: 'projectimagetemrango',
     techList: 'HTML CSS JAVASCRIPT',
-    name: 'Project Name',
-    desc: 'Website responsive',
+    name: 'TemRango',
+    desc: 'responsive plans page for TemRango.',
     classButton: 'live',
-    href: 'https://github.com/bynathan'
+    href: 'https://github.com/bynathan/app-delivery-cod3r'
   },
   {
-    imgName: 'projectimagename',
-    techList: 'HTML CSS JAVASCRIPT',
-    name: 'Project Name',
-    desc: 'Website responsive',
-    classButton: 'github',
-    href: 'https://github.com/bynathan'
+    imgName: 'projectimagefirstportfolio',
+    techList: 'HTML CSS JAVASCRIPT DARK/LIGHT',
+    name: 'First portfolio',
+    desc: 'portfolio responsive.',
+    classButton: 'live',
+    href: 'bynathan.github.io/portfolio/'
   }
  ]
 }
