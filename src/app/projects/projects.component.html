@@ -1,1 +1,18 @@
-<p>projects works!</p>
+<div class="projects__full">
+  <div class="projects__header">
+    <h1><strong>/</strong>projects</h1>
+    <p>List of my projects</p>
+  </div>
+  <div class="projects__completes">
+    <h1><strong>#</strong>complete-projects</h1>
+    <div>
+      <app-project *ngFor="let project of projects" [project]="project"></app-project>
+    </div>
+  </div>
+  <div class="projects__small">
+    <h1><strong>#</strong>complete-projects</h1>
+    <div>
+      <app-project-small *ngFor="let projectsmall of projectsmalls" [projectsmall]="projectsmall"></app-project-small>
+    </div>
+  </div>
+</div>

@@ -118,6 +118,21 @@
   }
 }
 
+.projects__list{
+  app-project{
+    display: none;
+  }
+  app-project:nth-child(1){
+    display: flex;
+  }
+  app-project:nth-child(2){
+    display: flex;
+  }
+  app-project:nth-child(3){
+    display: flex;
+  }
+}
+
 // SKILLS
 
 .home__skills{

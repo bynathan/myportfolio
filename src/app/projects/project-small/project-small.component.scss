@@ -1,0 +1,93 @@
+.project__full{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 330px;
+  border: 1px solid #ABB2BF;
+}
+
+.project__tech{
+  box-sizing: border-box;
+  border-bottom: 1px solid #ABB2BF;
+  padding: 8px;
+  width: 100%;
+  p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ABB2BF;
+  }
+}
+
+.project__info{
+  box-sizing: border-box;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  h1{
+    margin: 0 0 16px 0;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+  }
+  p{
+    margin: 0 0 16px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ABB2BF;
+  }
+}
+
+.project__buttons{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 16px 16px 16px;
+  a{
+    text-decoration: none;
+  }
+  .live{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #C778DD;
+    width: 109px;
+    height: 37px;
+    background-color: transparent;
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all .2s;
+    &:hover{
+      background-color: rgba(199, 120, 221, 0.2);
+    }
+  }
+  .github{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #C778DD;
+      width: 109px;
+      height: 37px;
+      background-color: transparent;
+      font-family: 'Fira Code';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 21px;
+      color: #FFFFFF;
+      cursor: pointer;
+      transition: all .2s;
+      &:hover{
+        background-color: rgba(199, 120, 221, 0.2);
+      }
+  }
+}

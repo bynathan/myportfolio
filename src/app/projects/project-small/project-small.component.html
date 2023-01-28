@@ -1,0 +1,14 @@
+<div class="project__full">
+  <div class="project__tech">
+    <p>{{projectsmall.techList}}</p>
+  </div>
+  <div class="project__info">
+    <h1>{{projectsmall.name}}</h1>
+    <p>{{projectsmall.desc}}</p>
+  </div>
+  <div class="project__buttons">
+    <a target="_blank" href="{{projectsmall.href}}">
+      <input *ngIf="projectsmall.classButton == 'live'" class="live" type="button" value='Live |&gt;'>
+      <input *ngIf="projectsmall.classButton == 'github'" class="github" type="button" value='Github -&gt;'>
+    </a>
+</div>
