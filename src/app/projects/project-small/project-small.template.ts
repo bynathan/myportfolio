@@ -1,44 +1,16 @@
 export const ProjectSmallList = [
   {
     techList: 'HTML CSS JAVASCRIPT',
-    name: 'Project Figmaland 01',
-    desc: 'figma responsive website.',
-    classButton: 'github',
-    href: 'https://bynathan.github.io/project-figmaland-001/'
+    name: 'Project time of day',
+    desc: 'Project made to inform the time of day, it changes the style according to the time.',
+    classButton: 'live',
+    href: 'https://bynathan.github.io/project-time-of-day/'
   },
   {
     techList: 'HTML CSS JAVASCRIPT',
-    name: 'TemRango',
-    desc: 'responsive plans page for TemRango.',
+    name: 'Project age detector',
+    desc: 'Project made to detect the age and sex of the user changing style according to the information.',
     classButton: 'live',
-    href: 'https://github.com/bynathan/app-delivery-cod3r'
-  },
-  {
-    techList: 'HTML CSS JAVASCRIPT DARK/LIGHT',
-    name: 'First portfolio',
-    desc: 'portfolio responsive.',
-    classButton: 'github',
-    href: 'bynathan.github.io/portfolio/'
-  },
-  {
-    techList: 'HTML CSS JAVASCRIPT',
-    name: 'Project Figmaland 01',
-    desc: 'figma responsive website.',
-    classButton: 'live',
-    href: 'https://bynathan.github.io/project-figmaland-001/'
-  },
-  {
-    techList: 'HTML CSS JAVASCRIPT',
-    name: 'TemRango',
-    desc: 'responsive plans page for TemRango.',
-    classButton: 'live',
-    href: 'https://github.com/bynathan/app-delivery-cod3r'
-  },
-  {
-    techList: 'HTML CSS JAVASCRIPT DARK/LIGHT',
-    name: 'First portfolio',
-    desc: 'portfolio responsive.',
-    classButton: 'live',
-    href: 'bynathan.github.io/portfolio/'
+    href: 'https://bynathan.github.io/project-age-detector/'
   },
  ]
